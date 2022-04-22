@@ -6,7 +6,7 @@
 trigger:
   branches:
     include:
-    - 'main'     # only build master
+    - '*'     # run on all
   paths:
     exclude:
     - docs/*  # exclude the docs folder
